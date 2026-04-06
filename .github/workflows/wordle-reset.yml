@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   reset:
@@ -34,3 +35,65 @@ jobs:
           git add README.md game/state.json
           git diff --staged --quiet || git commit -m "🔄 Daily Wordle reset"
           git push
+
+      - name: Close previous day's issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'wordle',
+              state: 'open',
+            });
+
+            for (const issue of issues.data) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+              });
+            }
+
+      - name: Create new daily issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0, 10);
+            const state = require('./game/state.json');
+
+            const issue = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Wordle #${state.day} — ${today}`,
+              labels: ['wordle'],
+              body: [
+                `## 🟩 Wordle #${state.day}`,
+                '',
+                'Comment your guess below:',
+                '',
+                '```',
+                'guess: YOURWORD',
+                '```',
+                '',
+                'For example: `guess: CRANE`',
+                '',
+                '### Rules',
+                '- Words must be **exactly 5 letters** and in the valid word list',
+                '- Players can guess **multiple times per day**',
+                '- **6 total guesses** shared across all players — work together!',
+                '- 🟩 Correct letter, correct position',
+                '- 🟨 Correct letter, wrong position',
+                '- ⬛ Letter not in the word',
+                '',
+                'Good luck!',
+              ].join('\n'),
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.data.number,
+              pinned: true,
+            });
