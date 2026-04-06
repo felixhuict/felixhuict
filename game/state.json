@@ -1,7 +1,13 @@
 {
   "word": "",
   "day": 1,
-  "guesses": [],
+  "guesses": [
+    {
+      "word": "HOUSE",
+      "player": "felixhuict",
+      "time": "2026-04-06T20:53:20.672216+00:00"
+    }
+  ],
   "solved": false,
   "solved_by": null,
   "date": "2026-04-06",
