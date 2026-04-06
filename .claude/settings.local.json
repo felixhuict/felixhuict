@@ -3,7 +3,12 @@
     "allow": [
       "Bash(python game/wordle.py init)",
       "Bash(python game/wordle.py guess CRANE testplayer)",
-      "Bash(python game/wordle.py guess TRACE anotherplayer)"
+      "Bash(python game/wordle.py guess TRACE anotherplayer)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
