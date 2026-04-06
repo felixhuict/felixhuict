@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python game/wordle.py init)",
+      "Bash(python game/wordle.py guess CRANE testplayer)",
+      "Bash(python game/wordle.py guess TRACE anotherplayer)"
+    ]
+  }
+}
