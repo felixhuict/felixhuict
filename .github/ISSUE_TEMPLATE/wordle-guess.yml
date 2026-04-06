@@ -8,7 +8,7 @@ body:
       value: |
         ## How to Play
 
-        Comment on this issue with your guess:
+        After creating this issue, comment with your guess:
 
         ```
         guess: CRANE
@@ -24,3 +24,11 @@ body:
         - ⬛ Letter not in the word
 
         Good luck!
+  - type: textarea
+    id: first-guess
+    attributes:
+      label: First Guess (optional)
+      description: "Enter your first guess here, e.g. guess: CRANE"
+      placeholder: "guess: CRANE"
+    validations:
+      required: false
