@@ -184,7 +184,7 @@ GitHub Wordle #{state['day']} {result_num}/{max_guesses}
 
 # 🟩 GitHub Wordle
 
-### A collaborative Wordle game played through Pull Requests!
+### A collaborative Wordle game played through Issue Comments!
 
 **Day #{state['day']}** · {today_date}
 
@@ -225,21 +225,20 @@ GitHub Wordle #{state['day']} {result_num}/{max_guesses}
 
 ## 🕹️ How to Play
 
-1. **Fork** this repository
-2. **Create a branch** (any name)
-3. **Open a Pull Request** with the title:
+1. **Go to the [Game Issue](../../issues)** (look for the pinned Wordle issue)
+2. **Post a comment** with your guess:
    ```
    guess: YOURWORD
    ```
    For example: `guess: CRANE`
-4. The GitHub Action will **process your guess** and update the board
-5. Your PR will be **auto-closed** with your result as a comment
+3. The GitHub Action will **process your guess** and reply with your result
+4. The **game board** in the README will be updated automatically
 
 ### 📜 Rules
 
 - Words must be **exactly 5 letters**
 - Words must be in the **valid word list**
-- Each player gets **1 guess per day** (first PR counts)
+- Each player gets **1 guess per day** (first comment counts)
 - The game resets **every 24 hours at midnight UTC**
 - **6 total guesses** shared across all players — work together!
 - 🟩 = Correct letter, correct position

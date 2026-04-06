@@ -1,17 +1,21 @@
 name: Wordle - Process Guess
 
 on:
-  pull_request_target:
-    types: [opened]
+  issue_comment:
+    types: [created]
 
 permissions:
   contents: write
-  pull-requests: write
+  issues: write
 
 jobs:
   process-guess:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.pull_request.title, 'guess:') || startsWith(github.event.pull_request.title, 'Guess:') || startsWith(github.event.pull_request.title, 'GUESS:')
+    if: |
+      !github.event.issue.pull_request &&
+      (startsWith(github.event.comment.body, 'guess:') ||
+       startsWith(github.event.comment.body, 'Guess:') ||
+       startsWith(github.event.comment.body, 'GUESS:'))
 
     steps:
       - name: Checkout repository
@@ -25,17 +29,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Extract guess from PR title
+      - name: Extract guess from comment
         id: extract
         env:
-          PR_TITLE: ${{ github.event.pull_request.title }}
-          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENT_AUTHOR: ${{ github.event.comment.user.login }}
         run: |
-          # Extract the word after "guess:"
-          WORD=$(echo "$PR_TITLE" | sed -n 's/^[Gg][Uu][Ee][Ss][Ss]: *\([A-Za-z]*\).*/\1/p' | tr '[:lower:]' '[:upper:]')
+          # Extract the word after "guess:" (first line only)
+          FIRST_LINE=$(echo "$COMMENT_BODY" | head -n1)
+          WORD=$(echo "$FIRST_LINE" | sed -n 's/^[Gg][Uu][Ee][Ss][Ss]: *\([A-Za-z]*\).*/\1/p' | tr '[:lower:]' '[:upper:]')
           echo "word=$WORD" >> "$GITHUB_OUTPUT"
-          echo "player=$PR_AUTHOR" >> "$GITHUB_OUTPUT"
-          echo "Extracted guess: $WORD from player: $PR_AUTHOR"
+          echo "player=$COMMENT_AUTHOR" >> "$GITHUB_OUTPUT"
+          echo "Extracted guess: $WORD from player: $COMMENT_AUTHOR"
 
       - name: Process guess
         id: guess
@@ -57,18 +62,13 @@ jobs:
             echo "message=Something went wrong processing your guess." >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Comment on PR
+      - name: Reply with result
         uses: actions/github-script@v7
         env:
           RESULT_MESSAGE: ${{ steps.result.outputs.message }}
         with:
           script: |
-            const message = process.env.RESULT_MESSAGE + `
-
-            ---
-            *🤖 This PR was automatically processed by GitHub Wordle. Your guess has been recorded and the game board has been updated!*
-
-            *This PR will be closed automatically.*`;
+            const message = process.env.RESULT_MESSAGE + `\n\n---\n*🤖 Processed by GitHub Wordle*`;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
@@ -79,20 +79,12 @@ jobs:
 
       - name: Commit and push updated game state
         if: steps.guess.outcome == 'success'
+        env:
+          GUESS_WORD: ${{ steps.extract.outputs.word }}
+          GUESS_PLAYER: ${{ steps.extract.outputs.player }}
         run: |
           git config user.name "GitHub Wordle Bot"
           git config user.email "wordle-bot@users.noreply.github.com"
           git add README.md game/state.json game/leaderboard.json
-          git diff --staged --quiet || git commit -m "🟩 Wordle guess: ${{ steps.extract.outputs.word }} by @${{ steps.extract.outputs.player }}"
+          git diff --staged --quiet || git commit -m "🟩 Wordle guess: $GUESS_WORD by @$GUESS_PLAYER"
           git push
-
-      - name: Close PR
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.pulls.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              state: 'closed'
-            });
