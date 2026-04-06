@@ -8,7 +8,7 @@
 
 ---
 
-🔤 **4 guesses remaining** — Submit a PR to play!
+🔤 **6 guesses remaining** — Submit a PR to play!
 
 </div>
 
@@ -16,8 +16,8 @@
 
 | # | Result | Letters | Player |
 |---|--------|---------|--------|
-| 1 | ⬛ ⬛ ⬛ ⬛ 🟩 | **H** **O** **U** **S** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 2 | 🟨 ⬛ ⬛ ⬛ 🟩 | **A** **P** **P** **L** **E** | [@NSYCoding](https://github.com/NSYCoding) |
+| 1 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 2 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 3 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 4 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 5 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
@@ -30,8 +30,8 @@
 
 <div align="center">
 
-⬜`Q` ⬜`W` 🟩`E` ⬜`R` ⬜`T` ⬜`Y` ⬛`U` ⬜`I` ⬛`O` ⬛`P`
-🟨`A` ⬛`S` ⬜`D` ⬜`F` ⬜`G` ⬛`H` ⬜`J` ⬜`K` ⬛`L`
+⬜`Q` ⬜`W` ⬜`E` ⬜`R` ⬜`T` ⬜`Y` ⬜`U` ⬜`I` ⬜`O` ⬜`P`
+⬜`A` ⬜`S` ⬜`D` ⬜`F` ⬜`G` ⬜`H` ⬜`J` ⬜`K` ⬜`L`
 ⬜`Z` ⬜`X` ⬜`C` ⬜`V` ⬜`B` ⬜`N` ⬜`M`
 
 </div>
@@ -63,7 +63,7 @@
 
 - Words must be **exactly 5 letters**
 - Words must be in the **valid word list**
-- Each player gets **1 guess per day** (first comment counts)
+- Players can guess **multiple times per day**
 - The game resets **every 24 hours at midnight UTC**
 - **6 total guesses** shared across all players — work together!
 - 🟩 = Correct letter, correct position

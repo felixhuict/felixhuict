@@ -238,7 +238,7 @@ GitHub Wordle #{state['day']} {result_num}/{max_guesses}
 
 - Words must be **exactly 5 letters**
 - Words must be in the **valid word list**
-- Each player gets **1 guess per day** (first comment counts)
+- Players can guess **multiple times per day**
 - The game resets **every 24 hours at midnight UTC**
 - **6 total guesses** shared across all players — work together!
 - 🟩 = Correct letter, correct position
@@ -299,11 +299,6 @@ def process_guess(word, player):
     valid_words = load_words()
     if word not in valid_words:
         return False, f"❌ `{word}` is not in the word list. Try a different word."
-
-    # Check if player already guessed today
-    for g in state["guesses"]:
-        if g["player"].lower() == player.lower():
-            return False, f"⚠️ @{player} has already guessed today (`{g['word']}`). One guess per player per day!"
 
     # Score the guess
     scored = score_guess(word, target)
