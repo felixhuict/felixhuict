@@ -1,1 +1,13 @@
-{}
+{
+  "NSYCoding": {
+    "wins": 1,
+    "total_guesses": 6,
+    "games": [
+      {
+        "day": 1,
+        "guesses": 6,
+        "date": "2026-04-06"
+      }
+    ]
+  }
+}

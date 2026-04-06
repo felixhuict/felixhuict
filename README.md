@@ -8,7 +8,7 @@
 
 ---
 
-🔤 **1 guess remaining** — Submit a PR to play!
+🎉 **SOLVED by [@NSYCoding](https://github.com/NSYCoding)** in 6 guesses! Come back tomorrow for a new word!
 
 </div>
 
@@ -21,8 +21,24 @@
 | 3 | ⬛ 🟨 ⬛ ⬛ 🟩 | **E** **A** **G** **L** **E** | [@felixhuict](https://github.com/felixhuict) |
 | 4 | ⬛ 🟩 ⬛ 🟨 🟩 | **W** **R** **I** **T** **E** | [@NSYCoding](https://github.com/NSYCoding) |
 | 5 | 🟩 🟩 ⬛ ⬛ 🟩 | **T** **R** **I** **B** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 6 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 6 | 🟩 🟩 🟩 🟩 🟩 | **T** **R** **A** **C** **E** | [@NSYCoding](https://github.com/NSYCoding) |
 
+
+<details>
+<summary>📋 Share your result</summary>
+
+```
+GitHub Wordle #1 6/6
+
+⬛⬛⬛⬛🟩
+🟨⬛⬛⬛🟩
+⬛🟨⬛⬛🟩
+⬛🟩⬛🟨🟩
+🟩🟩⬛⬛🟩
+🟩🟩🟩🟩🟩
+```
+
+</details>
 
 
 <details>
@@ -31,8 +47,8 @@
 <div align="center">
 
 ⬜`Q` ⬛`W` 🟩`E` 🟩`R` 🟩`T` ⬜`Y` ⬛`U` ⬛`I` ⬛`O` ⬛`P`
-🟨`A` ⬛`S` ⬜`D` ⬜`F` ⬛`G` ⬛`H` ⬜`J` ⬜`K` ⬛`L`
-⬜`Z` ⬜`X` ⬜`C` ⬜`V` ⬛`B` ⬜`N` ⬜`M`
+🟩`A` ⬛`S` ⬜`D` ⬜`F` ⬛`G` ⬛`H` ⬜`J` ⬜`K` ⬛`L`
+⬜`Z` ⬜`X` 🟩`C` ⬜`V` ⬛`B` ⬜`N` ⬜`M`
 
 </div>
 
@@ -44,7 +60,7 @@
 
 | Rank | Player | Wins | Avg Guesses |
 |------|--------|------|-------------|
-| | *No winners yet — be the first!* | | |
+| 🥇 | [@NSYCoding](https://github.com/NSYCoding) | 1 | 6.0 |
 
 ---
 
