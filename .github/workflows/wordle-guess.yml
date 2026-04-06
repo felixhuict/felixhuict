@@ -4,6 +4,10 @@ on:
   issue_comment:
     types: [created]
 
+concurrency:
+  group: wordle-guess
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write
