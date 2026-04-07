@@ -4,11 +4,11 @@
 
 ### A collaborative Wordle game played through Issue Comments!
 
-**Day #1** · 2026-04-06
+**Day #2** · 2026-04-07
 
 ---
 
-🎉 **SOLVED by [@NSYCoding](https://github.com/NSYCoding)** in 6 guesses! Come back tomorrow for a new word!
+🔤 **6 guesses remaining** — Submit a PR to play!
 
 </div>
 
@@ -16,29 +16,13 @@
 
 | # | Result | Letters | Player |
 |---|--------|---------|--------|
-| 1 | ⬛ ⬛ ⬛ ⬛ 🟩 | **H** **O** **U** **S** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 2 | 🟨 ⬛ ⬛ ⬛ 🟩 | **A** **P** **P** **L** **E** | [@NSYCoding](https://github.com/NSYCoding) |
-| 3 | ⬛ 🟨 ⬛ ⬛ 🟩 | **E** **A** **G** **L** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 4 | ⬛ 🟩 ⬛ 🟨 🟩 | **W** **R** **I** **T** **E** | [@NSYCoding](https://github.com/NSYCoding) |
-| 5 | 🟩 🟩 ⬛ ⬛ 🟩 | **T** **R** **I** **B** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 6 | 🟩 🟩 🟩 🟩 🟩 | **T** **R** **A** **C** **E** | [@NSYCoding](https://github.com/NSYCoding) |
+| 1 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 2 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 3 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 4 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 5 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 6 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 
-
-<details>
-<summary>📋 Share your result</summary>
-
-```
-GitHub Wordle #1 6/6
-
-⬛⬛⬛⬛🟩
-🟨⬛⬛⬛🟩
-⬛🟨⬛⬛🟩
-⬛🟩⬛🟨🟩
-🟩🟩⬛⬛🟩
-🟩🟩🟩🟩🟩
-```
-
-</details>
 
 
 <details>
@@ -46,9 +30,9 @@ GitHub Wordle #1 6/6
 
 <div align="center">
 
-⬜`Q` ⬛`W` 🟩`E` 🟩`R` 🟩`T` ⬜`Y` ⬛`U` ⬛`I` ⬛`O` ⬛`P`
-🟩`A` ⬛`S` ⬜`D` ⬜`F` ⬛`G` ⬛`H` ⬜`J` ⬜`K` ⬛`L`
-⬜`Z` ⬜`X` 🟩`C` ⬜`V` ⬛`B` ⬜`N` ⬜`M`
+⬜`Q` ⬜`W` ⬜`E` ⬜`R` ⬜`T` ⬜`Y` ⬜`U` ⬜`I` ⬜`O` ⬜`P`
+⬜`A` ⬜`S` ⬜`D` ⬜`F` ⬜`G` ⬜`H` ⬜`J` ⬜`K` ⬜`L`
+⬜`Z` ⬜`X` ⬜`C` ⬜`V` ⬜`B` ⬜`N` ⬜`M`
 
 </div>
 

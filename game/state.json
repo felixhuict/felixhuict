@@ -1,40 +1,9 @@
 {
   "word": "",
-  "day": 1,
-  "guesses": [
-    {
-      "word": "HOUSE",
-      "player": "felixhuict",
-      "time": "2026-04-06T20:53:20.672216+00:00"
-    },
-    {
-      "word": "APPLE",
-      "player": "NSYCoding",
-      "time": "2026-04-06T20:55:16.067684+00:00"
-    },
-    {
-      "word": "EAGLE",
-      "player": "felixhuict",
-      "time": "2026-04-06T20:59:04.773116+00:00"
-    },
-    {
-      "word": "WRITE",
-      "player": "NSYCoding",
-      "time": "2026-04-06T21:00:30.683558+00:00"
-    },
-    {
-      "word": "TRIBE",
-      "player": "felixhuict",
-      "time": "2026-04-06T21:01:49.143286+00:00"
-    },
-    {
-      "word": "TRACE",
-      "player": "NSYCoding",
-      "time": "2026-04-06T21:05:12.904424+00:00"
-    }
-  ],
-  "solved": true,
-  "solved_by": "NSYCoding",
-  "date": "2026-04-06",
+  "day": 2,
+  "guesses": [],
+  "solved": false,
+  "solved_by": null,
+  "date": "2026-04-07",
   "max_guesses": 6
 }
