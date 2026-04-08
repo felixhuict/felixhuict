@@ -8,7 +8,7 @@
 
 ---
 
-🔤 **3 guesses remaining** — Submit a PR to play!
+🔤 **2 guesses remaining** — Submit a PR to play!
 
 </div>
 
@@ -19,7 +19,7 @@
 | 1 | ⬛ ⬛ ⬛ ⬛ ⬛ | **B** **A** **C** **O** **N** | [@felixhuict](https://github.com/felixhuict) |
 | 2 | ⬛ ⬛ 🟨 🟨 ⬛ | **H** **O** **U** **S** **E** | [@felixhuict](https://github.com/felixhuict) |
 | 3 | ⬛ ⬛ ⬛ ⬛ ⬛ | **A** **P** **P** **L** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 4 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 4 | ⬛ 🟨 ⬛ 🟨 ⬛ | **T** **R** **A** **I** **N** | [@JesseRoos](https://github.com/JesseRoos) |
 | 5 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 6 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 
@@ -30,7 +30,7 @@
 
 <div align="center">
 
-⬜`Q` ⬜`W` ⬛`E` ⬜`R` ⬜`T` ⬜`Y` 🟨`U` ⬜`I` ⬛`O` ⬛`P`
+⬜`Q` ⬜`W` ⬛`E` 🟨`R` ⬛`T` ⬜`Y` 🟨`U` 🟨`I` ⬛`O` ⬛`P`
 ⬛`A` 🟨`S` ⬜`D` ⬜`F` ⬜`G` ⬛`H` ⬜`J` ⬜`K` ⬛`L`
 ⬜`Z` ⬜`X` ⬛`C` ⬜`V` ⬛`B` ⬛`N` ⬜`M`
 
