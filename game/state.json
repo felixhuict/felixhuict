@@ -1,7 +1,13 @@
 {
   "word": "",
   "day": 3,
-  "guesses": [],
+  "guesses": [
+    {
+      "word": "BACON",
+      "player": "felixhuict",
+      "time": "2026-04-08T09:43:15.091076+00:00"
+    }
+  ],
   "solved": false,
   "solved_by": null,
   "date": "2026-04-08",
