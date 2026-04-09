@@ -8,7 +8,7 @@
 
 ---
 
-🔤 **6 guesses remaining** — Submit a PR to play!
+🔤 **5 guesses remaining** — Submit a PR to play!
 
 </div>
 
@@ -16,7 +16,7 @@
 
 | # | Result | Letters | Player |
 |---|--------|---------|--------|
-| 1 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 1 | 🟨 ⬛ ⬛ ⬛ 🟨 | **A** **P** **P** **L** **E** | [@ReallyFatYoshi](https://github.com/ReallyFatYoshi) |
 | 2 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 3 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 4 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
@@ -30,8 +30,8 @@
 
 <div align="center">
 
-⬜`Q` ⬜`W` ⬜`E` ⬜`R` ⬜`T` ⬜`Y` ⬜`U` ⬜`I` ⬜`O` ⬜`P`
-⬜`A` ⬜`S` ⬜`D` ⬜`F` ⬜`G` ⬜`H` ⬜`J` ⬜`K` ⬜`L`
+⬜`Q` ⬜`W` 🟨`E` ⬜`R` ⬜`T` ⬜`Y` ⬜`U` ⬜`I` ⬜`O` ⬛`P`
+🟨`A` ⬜`S` ⬜`D` ⬜`F` ⬜`G` ⬜`H` ⬜`J` ⬜`K` ⬛`L`
 ⬜`Z` ⬜`X` ⬜`C` ⬜`V` ⬜`B` ⬜`N` ⬜`M`
 
 </div>
