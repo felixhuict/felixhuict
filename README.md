@@ -4,11 +4,11 @@
 
 ### A collaborative Wordle game played through Issue Comments!
 
-**Day #3** · 2026-04-08
+**Day #4** · 2026-04-09
 
 ---
 
-🔤 **2 guesses remaining** — Submit a PR to play!
+🔤 **6 guesses remaining** — Submit a PR to play!
 
 </div>
 
@@ -16,10 +16,10 @@
 
 | # | Result | Letters | Player |
 |---|--------|---------|--------|
-| 1 | ⬛ ⬛ ⬛ ⬛ ⬛ | **B** **A** **C** **O** **N** | [@felixhuict](https://github.com/felixhuict) |
-| 2 | ⬛ ⬛ 🟨 🟨 ⬛ | **H** **O** **U** **S** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 3 | ⬛ ⬛ ⬛ ⬛ ⬛ | **A** **P** **P** **L** **E** | [@felixhuict](https://github.com/felixhuict) |
-| 4 | ⬛ 🟨 ⬛ 🟨 ⬛ | **T** **R** **A** **I** **N** | [@JesseRoos](https://github.com/JesseRoos) |
+| 1 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 2 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 3 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
+| 4 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 5 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 | 6 | ⬜ ⬜ ⬜ ⬜ ⬜ |   .  .  .  .  . | |
 
@@ -30,9 +30,9 @@
 
 <div align="center">
 
-⬜`Q` ⬜`W` ⬛`E` 🟨`R` ⬛`T` ⬜`Y` 🟨`U` 🟨`I` ⬛`O` ⬛`P`
-⬛`A` 🟨`S` ⬜`D` ⬜`F` ⬜`G` ⬛`H` ⬜`J` ⬜`K` ⬛`L`
-⬜`Z` ⬜`X` ⬛`C` ⬜`V` ⬛`B` ⬛`N` ⬜`M`
+⬜`Q` ⬜`W` ⬜`E` ⬜`R` ⬜`T` ⬜`Y` ⬜`U` ⬜`I` ⬜`O` ⬜`P`
+⬜`A` ⬜`S` ⬜`D` ⬜`F` ⬜`G` ⬜`H` ⬜`J` ⬜`K` ⬜`L`
+⬜`Z` ⬜`X` ⬜`C` ⬜`V` ⬜`B` ⬜`N` ⬜`M`
 
 </div>
 

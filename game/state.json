@@ -1,30 +1,9 @@
 {
   "word": "",
-  "day": 3,
-  "guesses": [
-    {
-      "word": "BACON",
-      "player": "felixhuict",
-      "time": "2026-04-08T09:43:15.091076+00:00"
-    },
-    {
-      "word": "HOUSE",
-      "player": "felixhuict",
-      "time": "2026-04-08T11:58:46.237100+00:00"
-    },
-    {
-      "word": "APPLE",
-      "player": "felixhuict",
-      "time": "2026-04-08T12:01:26.803659+00:00"
-    },
-    {
-      "word": "TRAIN",
-      "player": "JesseRoos",
-      "time": "2026-04-08T12:12:44.797547+00:00"
-    }
-  ],
+  "day": 4,
+  "guesses": [],
   "solved": false,
   "solved_by": null,
-  "date": "2026-04-08",
+  "date": "2026-04-09",
   "max_guesses": 6
 }
