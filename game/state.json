@@ -1,15 +1,9 @@
 {
   "word": "",
-  "day": 4,
-  "guesses": [
-    {
-      "word": "APPLE",
-      "player": "ReallyFatYoshi",
-      "time": "2026-04-09T14:03:56.148864+00:00"
-    }
-  ],
+  "day": 5,
+  "guesses": [],
   "solved": false,
   "solved_by": null,
-  "date": "2026-04-09",
+  "date": "2026-04-10",
   "max_guesses": 6
 }
