@@ -4,7 +4,7 @@
 
 ### A collaborative Wordle game played through Issue Comments!
 
-**Day #107** · 2026-07-21
+**Day #108** · 2026-07-22
 
 ---
 
